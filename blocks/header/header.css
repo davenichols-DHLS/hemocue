@@ -4,6 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  background-color: #9b162a;
 }
 
 header nav#nav {
@@ -239,11 +240,13 @@ header nav#nav .nav-sections ul > li > ul > li {
     flex: 0 1 auto;
     position: relative;
     font-weight: 500;
+    color: white;
   }
 
   header nav#nav .nav-sections .default-content-wrapper > ul > li > ul {
     display: none;
     position: relative;
+    color: black;
   }
 
   header nav#nav .nav-sections .default-content-wrapper > ul > li[aria-expanded="true"] > ul {
